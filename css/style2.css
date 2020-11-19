@@ -195,7 +195,13 @@ header{
 }
 @media(max-width: 768px){
 	body{
-		min-width: 500px;
-		width: 100%;
+		max-width: 767px;
+		width: 99%;
 	}	
+}
+@media(max-width: 480px){
+	body{
+		min-width: 480px;
+		width: 99%;
+	}
 }
