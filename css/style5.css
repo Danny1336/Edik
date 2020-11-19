@@ -143,10 +143,7 @@ div{
 	max-width: 1440px;
 	width: 100%;
 }
-@media(max-width: 1198){
-	
-}
-@media(max-width: 705px){
+@media(max-width: 1175px){
 .item{
 		display:block;
 		 flex-direction: column;
@@ -185,6 +182,7 @@ header{
 }
 @media(max-width: 768px){
 	body{
-		max-width: 767px;
-	}
+		min-width: 700px;
+		width: 99%;
+	}	
 }

@@ -186,7 +186,7 @@ footer{
 		max-width: 767px;
 	}
 }
-@media(max-width: 705px){
+@media(max-width: 1175px){
 .item{
 		display:block;
 		 flex-direction: column;
@@ -220,6 +220,6 @@ header{
 @media(max-width: 663px){
 	body{
 		min-width: 700px;
-		width: 100%;
+		width: 99%;
 	}
 }
