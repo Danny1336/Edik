@@ -3,7 +3,6 @@
 }
 body{
 	margin: auto;
-	max-width: 1440px;
 }
 .item{
 	display: inline;
@@ -158,4 +157,10 @@ footer{
 	max-width: 1060px;
 	width: 94%;
 }
+}
+@media(max-width: 705px){
+	.item{
+		display:block;
+		 flex-direction: column;
+	}
 }
