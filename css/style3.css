@@ -147,8 +147,8 @@ header{
 }
 @media(max-width: 768px){
 	body{
-		min-width: 420px;
-		width: 99%;
+		min-width: 500px;
+		width: 100%;
 	}	
 	.artperm{
 		font-size:24px;
