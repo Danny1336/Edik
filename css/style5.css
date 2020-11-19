@@ -183,3 +183,8 @@ header{
 	max-height: 200px;
 }
 }
+@media(max-width: 768px){
+	body{
+		max-width: 767px;
+	}
+}
