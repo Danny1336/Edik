@@ -32,7 +32,7 @@ header{
 	height: 73px;
 	border: 3px solid #000000;
 	max-width: 1434px;
-	width: 99.3%;
+	width: 99%;
 }
 .buttons{
 	padding-top: 13px;
@@ -47,6 +47,7 @@ header{
 	width: 140px;
 }
 footer{ 
+	margin-top: 59px;
 	max-width: 1440px;
 	width: 100%;
 	height: 178px;
@@ -61,106 +62,89 @@ footer{
 	font-size: 20px;
 
 }
-.profile>h2{
-	padding-top: 24px;
-	padding-bottom: 24px;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 56px;
-	line-height: 66px;
-	text-align: center;
-}
-.prifleimg>img{
+.myself{
 	display: flex;
-	padding-bottom: 40px;
-	max-width: 696px;
-	max-height: 657px;
-	width: 100%;
 }
-.prifleimg{
-	max-width: 1440px;
-	width: 100%;
-	text-align: center;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 36px;
-	line-height: 42px;
-	background: rgba(196, 196, 196, 0.2);
+.imput2,.imput3{
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
 }
-.biograph{
-	padding-top: 40px;
-	padding-bottom: 10px;
-	text-align:justify; 
-	max-width: 1384px;
-	width: 100%;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 36px;
-	line-height: 42px;
+.imput2{
+	max-width: 695px;
+	width: 95%;
+	height: 38px;
 }
-.biograph>p{
+.imput3{
+	max-width: 695px;
+	width: 95%;
+	height: 195px;
+}
+div{
 	padding-top: 55px;
 }
-
-.pic{
-	max-width: 1440px;
-	width: 100%;
-	background-image: url("https://sun9-53.userapi.com/i1jUUm5dBcCnN9PlJH2pIGy9Jk7ChJt-pm8dsA/E_zJJpRBofk.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	height: 772px;
+.ava>img{
+	margin-top: 100px;
+	max-width: 480px;
+	width: 95%;
+	max-height: 480px;
 }
-.pic>h2{
+.imputs>h2,div>h2{
 	font-family: Roboto;
 	font-style: normal;
-	font-weight: 500;
-	font-size: 64px;
-	line-height: 75px;
-	text-align: center;
-}
-.secimg>img{
-	display: flex;
-	max-height: 579px;
-	max-width: 972px;
-	width: 100%;
-	padding-top: 62px;
-}
-.fact{
-	padding-top: 77px;
-	padding-bottom: 64px;
-	max-width: 1311px;
-	width: 100%;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: 500;
+	font-weight: bold;
 	font-size: 48px;
-	line-height: 56px;
+}
+.imput1>h1{
+	margin: 0;
+	margin-top: 100px;
+	margin-bottom: 40px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 65px;
+	max-width: 700px;
+	max-height: 98px;
+	width: 100%;
+	text-align: center;
+	background: #DDDDDD;
+}
+.ava>h1{
+	margin: 0;
+	margin-top: 45px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 55px;
+	max-width: 480px;
+	max-height: 98px;
+
+	width: 95%;
+	text-align: center;
+	background: #DDDDDD;
 }
 @media(max-width: 1385px){
-.but,.but2{
+	.but,.but2{
 		height:25px;
 		width: 145px;
 		margin: 0px;
 	}
-.but2{
+	.but2{
 		margin-top: 2px;
 	}
-.buttons{
+	.buttons{
 		width: 145px;
 		margin-right: 10px;
 	}
-.fact{
-	max-width: 1060px;
-	width: 94%;
+	.myself{
+	flex-direction: column;
 	}
-.biograph{
-	max-width: 1060px;
-	width: 94%;
 }
+.kabinet{
+	max-width: 1440px;
+	width: 100%;
+}
+@media(max-width: 1198){
+	
 }
 @media(max-width: 705px){
 .item{
@@ -191,5 +175,11 @@ header{
 .but,.but2{
 	height: 76px;
 	width: 210px;
+}
+.imput1>h1{
+	max-height: 200px;
+	}
+.ava>h1{
+	max-height: 200px;
 }
 }

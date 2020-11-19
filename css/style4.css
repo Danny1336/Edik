@@ -93,3 +93,34 @@ footer{
 		margin-right: 10px;
 	}
 }
+@media(max-width: 705px){
+.item{
+		display:block;
+		 flex-direction: column;
+		 padding-top: 10px;
+	}
+.item-link{
+	margin-left: 0px;
+	margin-right:0px;
+
+}
+.list{
+	padding-left: 25px;
+	font-size: 28px;
+	font-weight: bold;
+}
+header{	
+	height: 270px;
+	display: flex;
+	justify-content: space-between;
+	}
+.buttons{
+	padding-top: 60px;
+	padding-right: 70px;
+	margin-left: 0px;
+}
+.but,.but2{
+	height: 76px;
+	width: 210px;
+}
+}
